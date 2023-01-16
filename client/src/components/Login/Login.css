@@ -1,0 +1,61 @@
+.loginContainer{
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .logo{
+     display: flex;
+     align-items: center;
+     color: slateblue;
+     display: flex;
+     align-items: center;
+     font-weight: 700;
+     cursor: pointer;
+  }
+  
+  input{
+  
+  }
+  
+  button{
+  
+  }
+  
+  .loginBtn{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: slateblue;
+  }
+  
+  .success{
+   color: #00b894;
+   font-size: 12px;
+   text-align: center;
+  }
+  
+  .failure{
+      color: #ff6348;
+      font-size: 12px;
+      text-align: center
+  }
+  
+  .loginCancel{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
