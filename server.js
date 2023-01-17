@@ -18,15 +18,15 @@ app.use('/api/pins', pinRoute);
 
 
 // Set static folder
-if (process.env.NODE_ENV === 'production') {
-app.use(express.static(path.join(__dirname, './client/build')));
+
+app.use(express.static(path.join(__dirname, "./client/build")));
   
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, './client/build/index.html'),(err)=>{
+    res.sendFile(path.join(__dirname, "./client/build/index.html"),(err)=>{
         res.status(500).send(err)
     });
 });
-}
+
 
 // if (process.env.NODE_ENV === 'production') {
 //     // Set static folder

@@ -7,7 +7,8 @@ import {Room,Star} from '@material-ui/icons';
 import axios from 'axios'
 import { format } from 'timeago.js';
 
-const url = 'https://mern-travel-web-app.herokuapp.com/api'
+const url = 'https://mern-travel-app.cyclic.app/api'
+
 function App() {
 
   const myStorage = window.localStorage; 

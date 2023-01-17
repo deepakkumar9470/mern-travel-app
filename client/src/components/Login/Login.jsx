@@ -3,7 +3,7 @@ import './Login.css'
 import {Room,Cancel} from '@material-ui/icons';
 import axios from 'axios'
 
-const url = 'https://mern-travel-web-app.herokuapp.com/api'
+const url = 'https://mern-travel-app.cyclic.app/api'
 
 const Login = ({setShowLogin,myStorage,setCurrentUser}) => {
     

@@ -3,7 +3,7 @@ import './Register.css'
 import {Room, Cancel} from '@material-ui/icons';
 import axios from 'axios'
 
-const url = 'https://mern-travel-web-app.herokuapp.com/api'
+const url = 'https://mern-travel-app.cyclic.app/api'
 
 const Register = ({setShowRegister}) => {
     const [success,setSuccess] = useState(false)
